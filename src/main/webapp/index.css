@@ -1,0 +1,143 @@
+/* WebContent/css/styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+ 
+/* Styling for Logo Image */
+.navbar-logo {
+    display: flex;
+    align-items: center; /* Aligns logo and text horizontally */
+}
+ 
+.navbar-logo img {
+    width: 50px; /* Adjust size of logo */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+    border-radius: 50%; /* Makes the logo circular */
+    object-fit: cover; /* Ensures the image fits nicely */
+}
+ 
+/* Styling for 'nterra' Text */
+.navbar-logo h1 {
+   font-family: 'Droid Serif', serif;
+font-style: italic; /* Apply the calligraphy font */
+    font-size: 36px; /* Adjust the size as needed */
+    color: white; /* Set text color to white */
+    margin: 0; /* Removes default margin */
+}
+ 
+/* Styling for Contact Info */
+.navbar-contact {
+    font-size: 14px;
+}
+ 
+.navbar-contact span {
+    margin-left: 20px; /* Adds space between contact info */
+}
+ 
+ 
+.user-logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    margin-bottom: 20px; /* Space between logo and email field */
+    border-radius: 50%; /* Makes the logo circular */
+    object-fit: cover; /* Ensures the image fits nicely */
+    border: 2px solid #ccc; /* Optional: Add a border */
+}
+ 
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+ 
+.form-container {
+    flex: 1;
+   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+ 
+.form-container form {
+    width: 50%;
+    max-width: 400px;
+}
+ 
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+ 
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+.form-container a button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+.form-container a button:hover {
+    background-color: #0056b3;
+}
+/* Centering the Register Button */
+.register-button {
+    text-align: center; /* Centers the button and text */
+    display: flex;
+    flex-direction: column; /* Stack button and text vertically */
+    align-items: center; /* Aligns them horizontally */
+    margin-top: 20px; /* Adds some space at the top */
+}
+ 
+.form-container .register-button {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    margin-top: 10px; /* Adds space above the button */
+}
+ 
+.form-container .register-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+.form-container .register-button button:hover {
+    background-color: #0056b3;
+}
+ 
+ 
+.image-container {
+	flex: 0 0 60%;
+   /* flex: 1;*/
+    
+    background: url('https://media.glassdoor.com/l/67/fc/be/3e/interrait.jpg') no-repeat center center / cover; /* Replace with your image path */
+    opacity: 0.6;
+    filter: brightness(0.8);
+}
